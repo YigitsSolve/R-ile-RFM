@@ -4,7 +4,7 @@ library(lubridate)
 library(funModeling)
 library(readr)
 
-# Veriyi yükleyin
+# Veriyi yükle
 online_retail_listing <- read_delim("C:/Users/.../online_retail_listing.csv", 
                                     delim = ";", escape_double = FALSE, trim_ws = TRUE)
 #View(online_retail_listing)
